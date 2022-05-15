@@ -1,11 +1,13 @@
-import './App.css';
-import Todo from './Todo';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import './assets/css/style.css';
+import Login from './pages/Login';
 
 function App() {
   return (
-    <div className="App">
-      <Todo />
-    </div>
+    <>
+      <Login/>
+    </>
   );
 }
 

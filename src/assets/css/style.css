@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'avenir';
+    src: url("/src/assets/fonts/Avenir_Font/AvenirLTStd-Roman.otf");
+}
+
+body{
+    font-family: 'avenir';
+    background-color: black;
+}
+
+.active{
+    color: red !important;
+}
+
